@@ -1,8 +1,8 @@
 edition = "2023";
 import "google/protobuf/timestamp.proto";
 
-package UDataPacketCacheAPI.V1;
-import "uDataPacketCacheAPI/v1/stream_identifier.proto";
+package UDataPacketServiceCacheAPI.V1;
+import "uDataPacketServiceCacheAPI/v1/stream_identifier.proto";
 
 /*!
  * Requests time series data from a specific stream.
