@@ -3,6 +3,8 @@ import "google/protobuf/timestamp.proto";
 
 package UDataPacketCacheServiceAPI.V1;
 
+import "uDataPacketCacheServiceAPI/v1/stream_identifier.proto";
+
 message StreamRequest {
   // The desired stream. 
   StreamIdentifier stream_identifier = 1;
